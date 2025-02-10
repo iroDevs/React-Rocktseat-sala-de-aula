@@ -1,0 +1,28 @@
+:root {
+    --white: #fff;
+
+    --roxo: #8e3f65;
+    --cinza: #73738d;
+    --desbotado: #72a5ae;
+    --verdeClaro: #98e9d0;
+    --limao: #d8ffcc;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, button , textarea {
+    font-family: "Dancing Script", serif;
+    font-size: 1rem;
+    background-color: var(--roxo);
+    color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Dancing Script", serif;
+}
